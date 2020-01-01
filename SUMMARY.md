@@ -1,21 +1,6 @@
-# README
+# Table of contents
 
-## 蝉時雨
-
-[![Author](https://img.shields.io/badge/author-chanshiyucx-blue.svg?style=flat-square)](https://chanshiyu.com) [![Email](https://img.shields.io/badge/Email%20me-me@chanshiyu.com-green.svg?style=flat-square)](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=tNnR9Nfc1drH3N3NwZrX29k)
-
-Code is Long, Life is Short.
-
-まだ五里霧中です。
-
-| 目录 | 描述                                                                  |
-| :--- | :-------------------------------------------------------------------- |
-| 時雨 | 日常博文，记录自己工作与生活中的那点小事                              |
-| 书斋 | 读书笔记，摘要读书过程中的知识要点和想法感悟                          |
-| 前端 | 前端知识库，包括且不限于 JavaScript、Nodejs、React、Vue 等知识总结    |
-| 后端 | 后端知识库，包括且不限于 Java、Spring、Linux、MySQL、Nginx 等知识总结 |
-| 采集 | 优秀的博客文章或资料，采集以备之后学习                                |
-
+- [README](README.md)
 - 時雨
   - 2017
     - [01 网站动态标题的两种方式](時雨/2017/01-网站动态标题的两种方式.md)
