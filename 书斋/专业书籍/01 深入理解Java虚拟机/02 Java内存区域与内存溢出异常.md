@@ -8,8 +8,6 @@ Java 与 C++之间有一堵由**内存分配**和**垃圾收集**技术所围成
 
 ![Java 运行时数据区 ](https://cdn.jsdelivr.net/gh/Clarencezero/poi/运行时数据区域.png)
 
-<div align="center"> <img height="500" src="https://cdn.jsdelivr.net/gh/Clarencezero/poi/运行时数据区域.png"/> </div>
-
 ### 2.2.1 程序计数器
 
 **程序计数器（Program Counter Register）:** 是一块儿较小的空间，用来指示当前线程所执行字节码的行号。
@@ -64,7 +62,7 @@ Java 堆是 Java 虚拟机所管理的内存中最大的一块。在 java 虚拟
 
 ### 2.2.5 方法区
 
-![本地方法栈 ](https://cdn.jsdelivr.net/gh/Clarencezero/poi/方法区.jpg)
+![方法区](https://cdn.jsdelivr.net/gh/Clarencezero/poi/方法区.jpg)
 
 用于存储已被虚拟机加载的**类信息、常量、静态变量、即时编译器**编译后的代码等数据。
 
@@ -92,47 +90,7 @@ Java虚拟机规范没有对运行时常量池做任何细节的要求。
 
 ### 2.3.1 对象的创建
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![HotSpot对象创建](https://cdn.jsdelivr.net/gh/Clarencezero/poi/HotSpot%20create.png)
 
 
 
