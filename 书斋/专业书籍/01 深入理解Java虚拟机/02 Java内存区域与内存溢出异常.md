@@ -132,9 +132,11 @@ reference在虚拟机规范中只规定了一个指向对象的引用, 并没有
   
   <div align="center"> <img src="https://cdn.jsdelivr.net/gh/Clarencezero/poi/get object direct2.png" max-width: "800px"/> </div>
 
-```html
 
-```
+
+## 参考文章
+
+[锁、虚拟机](http://www.liuhaihua.cn/archives/647554.html
 
 
 
