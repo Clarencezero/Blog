@@ -6,7 +6,7 @@ Java 与 C++之间有一堵由**内存分配**和**垃圾收集**技术所围成
 
 ## **2.2 Java 运行时数据区**
 
-![Java 运行时数据区 ](https://cdn.jsdelivr.net/gh/Clarencezero/poi/运行时数据区域.png)
+![Java 运行时数据区 ](https://cdn.jsdelivr.net/gh/Clarencezero/poi/runtime data area.png)
 
 ### 2.2.1 程序计数器
 
