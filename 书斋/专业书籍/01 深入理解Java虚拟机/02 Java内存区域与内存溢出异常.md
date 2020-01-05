@@ -128,7 +128,7 @@ reference在虚拟机规范中只规定了一个指向对象的引用, 并没有
 
   速度更快。节省了一次指针定位的时间开销。HotSpot默认使用该种对象访问方式。
 
-  ![直接指针](https://cdn.jsdelivr.net/gh/Clarencezero/poi/get object direct2.png)
+  <div align="center"> <img src="https://cdn.jsdelivr.net/gh/Clarencezero/poi/get object direct2.png" max-width: "800px"/> </div><br>
 
 
 
