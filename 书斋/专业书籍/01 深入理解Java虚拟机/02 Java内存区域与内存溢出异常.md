@@ -100,21 +100,35 @@ Java虚拟机规范没有对运行时常量池做任何细节的要求。
 
 HotSpot对象头包含两部分信息
 
-- 用于存储对象自身的运行时数据, 如哈希码(HashCode)、GC分代年龄、锁状态标志、线程持有的锁、偏向线程ID、偏向时间戳等。Mark Word被设计成一个非固定的数据结构以便在极小的空间内存储尽量多的信息。
+- 用于存储对象自身的运行时数据, 如**哈希码(HashCode)、GC分代年龄、锁状态标志、线程持有的锁、偏向线程ID、偏向时间戳**等。Mark Word被设计成一个非固定的数据结构以便在极小的空间内存储尽量多的信息。
+
+![HotSpot mark word](https://cdn.jsdelivr.net/gh/Clarencezero/poi/32hotspotmark word.jpg)
+
+- 类型指针, 即对象指向它的类元数据的指针, 虚拟机通过这个指针来确定这个对象是哪个类的实例。
+
+实例数据部分, 对象真正存储的有效信息, 也是在程序代码中所定义的各种类型的字段内容。包含父类继承。存储顺序会受到虚拟机分配策略参数(FieldsAllocationStyle)和字段在Java源码中定义顺序的影响。
 
 
 
+### 2.3.3 对象的访问定位
 
+建立对象是为了使用对象, Java程序需要通过栈上的reference数据来操作堆上的具体对象。
 
+reference在虚拟机规范中只规定了一个指向对象的引用, 并没有规定方式。目前主流虚拟机使用**句柄**和**直接指针**两种。
 
+- 句柄
 
+  Java堆中将会划分出一块内存来作为句柄池, reference中存储的就是对象的句柄地址。
+  
+  最大好处就是reference中存储的是稳定的句柄地址, 在对象被移动时只会改变句柄中的实例数据指针, 而reference本身不需要修改。
 
+![通过句柄访问对象](https://cdn.jsdelivr.net/gh/Clarencezero/poi/jubing.png)
 
+- 直接指针
 
+  速度更快。节省了一次指针定位的时间开销。HotSpot默认使用该种对象访问方式。
 
-
-
-
+  ![直接指针](https://cdn.jsdelivr.net/gh/Clarencezero/poi/get object direct.png)
 
 
 
