@@ -78,6 +78,19 @@ Java 堆是 Java 虚拟机所管理的内存中最大的一块。在 java 虚拟
 >
 > 更多有关内容可以参考[博客 ](https://www.cnblogs.com/paddix/p/5309550.html)
 
+**Q:**为什么移除永久代
+
+> - 它的大小是在启动时固定好的，很难进行调优。
+> - HotSpot内存类型也是Java对象，它可能会在Full GC中被移动，同时它对应用不透明，且是非强类型的，难以跟踪调试。
+> - 简化Full GC
+> - 可以在GC不进行暂停的情况下并发地释放类数据。
+>
+> - ...
+
+根据上面的各种原因，永久代最终被移除。方法区->Metaspace、字符串常量->Java Heap。
+
+Metaspace不再是存储在连续的堆空间上，而是移动到metaspace的`Native Memory(本地内存)`中。
+
 ### 2.2.6 运行时常量池
 
 方法区的一部分。
@@ -136,7 +149,7 @@ reference在虚拟机规范中只规定了一个指向对象的引用, 并没有
 
 ## 参考文章
 
-[锁、虚拟机](http://www.liuhaihua.cn/archives/647554.html
+[锁、虚拟机](http://www.liuhaihua.cn/archives/647554.html)
 
 
 
