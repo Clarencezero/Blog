@@ -38,4 +38,11 @@
     - Kafka
 - 采集
   - 论坛
-    - [论坛收集 ](采集/论坛/论坛.md)
+    - [V2EX](https://www.v2ex.com/)
+    - [美团技术团队](https://www.tech.meituan.com)
+    - [阮一峰·周刊](https://www.v2ex.com/)
+    - [简洁开源论坛收集 ](采集/论坛/论坛.md)
+  - - Markdown
+      - [Markdown排版工具](https://cyc2018.github.io/Text-Typesetting/)
+      - [Markdown Table生成器](http://www.tablesgenerator.com/markdown_tables)
+    - [Magi](https://magi.com)
