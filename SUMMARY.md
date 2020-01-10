@@ -34,7 +34,10 @@
     - [美团技术团队](https://www.tech.meituan.com)
     - [阮一峰·周刊](https://www.v2ex.com/)
     - [简洁开源论坛收集 ](采集/论坛/论坛.md)
-  - - Markdown
+  - Markdown
       - [Markdown排版工具](https://cyc2018.github.io/Text-Typesetting/)
       - [Markdown Table生成器](http://www.tablesgenerator.com/markdown_tables)
-    - [Magi](https://magi.com)
+  - [Magi](https://magi.com)
+  - 错误排查步骤
+      - [windows](采集/错误排查步骤/Windows.md)
+      - [Linux](采集/错误排查步骤/Linux.md)
