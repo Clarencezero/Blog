@@ -101,6 +101,8 @@ eureka:
   String forObject = restTemplate.getForObject("http://" + PRODUCT_HOST_NAME + "/product/list", String.class);
   ```
 
+  
+
 - Feign
 
   ```java
@@ -126,6 +128,7 @@ eureka:
   ```
   
   - 声明式 REST 客户端 (伪 RPC)
+  
 - 采用了基于接口的注解
   
 - Zuul
