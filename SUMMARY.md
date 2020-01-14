@@ -22,7 +22,7 @@
     - SpringBoot
       - [01 SpringBoot实战项目一](后台/Java/05 SpringCloud/01 SpringCloud实战项目一.md)
     - 网络
-      - [01 当你输入一个URL之后会发生什么](后台/Java/06 网络/01 当你输入一个URL之后会发生什么.md)
+      - [01 当你输入一个URL会发生什么](后台/Java/06 网络/01 当你输入一个URL之后会发生什么.md)
   - 网络编程
     - 网络原理
     - netty
