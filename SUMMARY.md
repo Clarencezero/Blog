@@ -51,4 +51,6 @@
     * 错误排查步骤
         * [windows](采集/错误排查步骤/Windows.md)
         * [Linux](采集/错误排查步骤/Linux.md)
+    * 各类安装教程
+        - [Gitbook](采集/论坛/01_Gitbook使用教程.md)
 
